@@ -1,0 +1,22 @@
+{
+  "name": "JSweek1",
+  "authors": [
+    "jon toler <tolerjonathan@gmail.com>"
+  ],
+  "description": "Modern JS Methods",
+  "main": "inde",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}
