@@ -5,7 +5,7 @@
   ],
   "description": "Modern JS Methods",
   "main": "inde",
-  "license": "MIT",
+  "license": "GPL",
   "homepage": "",
   "ignore": [
     "**/.*",

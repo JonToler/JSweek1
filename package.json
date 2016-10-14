@@ -1,7 +1,7 @@
 {
-  "name": "JSweek1",
+  "name": "jsweek1",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSweek1}",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,8 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.3",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }

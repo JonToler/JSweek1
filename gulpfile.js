@@ -7,6 +7,9 @@ var utilities = require('gulp-util');
 var del = require('del');
 var jshint = require('gulp-jshint');
 var buildProduction = utilities.env.production;
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
+var browserSync = require('browser-sync').create();
 
 var lib = require('bower-files')({
   "overrides":{
@@ -114,4 +117,14 @@ gulp.task('bowerBuild', ['bower'], function(){
 
 gulp.task('htmlBuild', function() {
   browserSync.reload();
+});
+
+gulp.task('build', ['clean'], function(){
+  if (buildProduction) {
+    gulp.start('minifyScripts');
+  } else {
+    gulp.start('jsBrowserify');
+  }
+  gulp.start('bower');
+  gulp.start('cssBuild');
 });
