@@ -14,15 +14,16 @@ Clone this repository to your desktop
 Install Bower
 Install Bootstrap
 Install Gulp
+Install a ton of npm files
 
 Behavior Driven Development SPECS
 
 Specifications
 
-Able to retrieve GitHub Repos
+Able to retrieve GitHub Repos by typing in the name of a GitHub Repo.
 
 Input: User can enter a "name"
-Output: Will display a GitHub users Name, email ,followers, following , login , location , public_repos , updated_at , image , madeAt.
+Output: Will display a GitHub users Name, email ,followers, following , login , location , public_repos , updated_at , image ,  and madeAt.
 
 Known Bugs
 
