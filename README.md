@@ -22,11 +22,11 @@ Specifications
 Able to retrieve GitHub Repos
 
 Input: User can enter a "name"
-Output: Will display a GitHub users Name.
+Output: Will display a GitHub users Name, email ,followers, following , login , location , public_repos , updated_at , image , madeAt.
 
 Known Bugs
 
-isn't passing yet will continue to work on functionality
+NA
 
 Support and contact details
 
@@ -34,7 +34,7 @@ Jon Toler: tolerjonathan@gmail.com.
 
 Technologies Used
 
-HTML, JS, API, Bower, Gulp
+HTML, JS, API, Bower, Gulp,GIT
 
 License
 

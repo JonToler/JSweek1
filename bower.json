@@ -6,7 +6,7 @@
   "description": "Modern JS Methods",
   "main": "inde",
   "license": "GPL",
-  "homepage": "",
+  "homepage": "https://github.com/JonToler/JSweek1",
   "ignore": [
     "**/.*",
     "node_modules",
